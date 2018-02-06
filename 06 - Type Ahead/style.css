@@ -1,6 +1,12 @@
     html {
       box-sizing: border-box;
-      background:#ffc600;
+      background: #f46b45;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(left, #eea849, #f46b45);
+      background: -o-linear-gradient(left, #eea849, #f46b45);
+      background: linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
       font-family:'helvetica neue';
       font-size: 20px;
       font-weight: 200;
@@ -67,5 +73,5 @@
     }
 
     .hl {
-      background:#ffc600;
+      background-color: #ffbd4c; 
     }
